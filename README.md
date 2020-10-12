@@ -1,13 +1,13 @@
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/rafaelcorradini/ngx-ion-simple-mask/master/LICENSE)
-[![Build Status](https://travis-ci.com/rafaelcorradini/ngx-ion-simple-mask.svg?branch=master)](https://travis-ci.com/rafaelcorradini/ngx-ion-simple-mask)
-# ngx-ion-simple-Mask
+<!-- [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/rafaelcorradini/ngx-ion-simple-mask/master/LICENSE)
+[![Build Status](https://travis-ci.com/rafaelcorradini/ngx-ion-simple-mask.svg?branch=master)](https://travis-ci.com/rafaelcorradini/ngx-ion-simple-mask) -->
+<!-- # ngx-ion-simple-Mask -->
 
-Input mask for Angular/Ionic (Tested with Ionic 4)
+Simple input mask for Angular/Ionic with support Ukrainian and Russian languages
 
 ## <a name="1"></a> Installing
 
 ```bash
-$ npm install --save ngx-ion-simple-mask
+$ npm install --save ionic-simple-mask-UA-RU
 ```
 
 ## <a name="2"></a> Usage
