@@ -1,0 +1,1 @@
+{"version":3,"file":"public_api.js","sourceRoot":"","sources":["../public_api.ts"],"names":[],"mappings":";;;;;;;AAGA,sEAAc,2BAA2B,CAAC","sourcesContent":["/**\n * Entry point for all public APIs of the package.\n */\nexport * from './src/ngx-ion-simple-mask';\n\n// This file only reexports content of the `src` folder. Keep it that way.\n"]}
