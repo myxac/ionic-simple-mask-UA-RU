@@ -12,9 +12,9 @@ $ npm install --save ionic-simple-mask-UA-RU
 
 ## <a name="2"></a> Usage
 
-Import ngx-ion-simple-mask module in Angular app.
+Import ionic-simple-mask-UA-RU module in your app.module.ts file.
 ```typescript
-import { SimpleMaskModule } from 'ngx-ion-simple-mask'
+import { SimpleMaskModule } from 'ionic-simple-mask-UA-RU'
 
 @NgModule({
   imports: [
@@ -25,7 +25,7 @@ import { SimpleMaskModule } from 'ngx-ion-simple-mask'
 
 Or import the directive/pipe separately
 ```typescript
-import { SimpleMaskDirective, SimpleMaskPipe } from 'ngx-ion-simple-mask'
+import { SimpleMaskDirective, SimpleMaskPipe } from 'ionic-simple-mask-UA-RU'
 
 @NgModule({
   declarations: [
@@ -40,6 +40,8 @@ import { SimpleMaskDirective, SimpleMaskPipe } from 'ngx-ion-simple-mask'
 ionic usage example:
 ```html
 <ion-input simpleMask="999.999.999-99" [clearIfNotMatch]="true"></ion-input>
+
+<ion-input simpleMask="AA 9999 AA"></ion-input>
 ```
 
 ### Angular
@@ -96,7 +98,7 @@ output:
 patterns = {
     '9': new RegExp('[0-9]'),
     'a': new RegExp('[a-z]'),
-    'A': new RegExp('[A-Z]'),
+    'A': new RegExp('a-zA-Zа-яА-ЯёЁЇїІіЄєҐґ'),
     'x': new RegExp('[a-zA-Z]'),
     '*': new RegExp('[a-zA-Z0-9]'),
     '~': new RegExp('[-\+]')
@@ -138,9 +140,3 @@ The set strings will be used as regex
 <input simpleMask="~III999" [addPatterns]="{ 'I', '[a-z]' }">
 ```
 example of input: +abc123
-
-## angular-library-starter
-The project was built with [angular-library-starter](https://github.com/robisim74/angular-library-starter/).
-
-## License
-MIT
