@@ -7,7 +7,7 @@ Simple input mask for Angular/Ionic with support Ukrainian and Russian languages
 ## <a name="1"></a> Installing
 
 ```bash
-$ npm install --save ionic-simple-mask-UA-RU
+$ npm install git://github.com:myxac/ionic-simple-mask-UA-RU.git --Save
 ```
 
 ## <a name="2"></a> Usage
