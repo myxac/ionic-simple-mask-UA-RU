@@ -105,21 +105,12 @@ patterns = {
 };
 ```
 
-| pattern | meaning |
-|------|---------|
-| **9** | digits (0-9) |
-| **a** | lowercase letters (a-z) |
-| **A** | uppercase letters (A-Z) |
-| **x** | letters uppercase or lowercase (a-z, A-Z) |
-|  **~** | - or + |
-| **\*** | letters or digits (a-z, A-Z, 0-9) |
-|  **\\** | cancel next pattern effect |
 
 #### Examples
 
 | mask | example |
 | ------- | ------- |
-| 999.999.aaa | 113.123.asd |
+| 999.999.AAA | 113.123.абв |
 | (AA) 999 | (AS) 123 |
 | 999\\\~ | 999~ |
 
